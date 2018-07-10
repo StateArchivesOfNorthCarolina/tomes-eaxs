@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-        xmlns:xm="http://www.archives.ncdcr.gov/mail-account"
-        targetNamespace="http://www.archives.ncdcr.gov/mail-account"
+        xmlns:xm="https://github.com/StateArchivesOfNorthCarolina/tomes-eaxs"
+        targetNamespace="https://github.com/StateArchivesOfNorthCarolina/tomes-eaxs"
         elementFormDefault="qualified">
 	<annotation>
 		<documentation>Schema to define an XML document which can store the information found in a single e-mail account.</documentation>
