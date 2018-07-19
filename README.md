@@ -10,5 +10,6 @@ This repository was specifically developed for the TOMES Project in order to pro
 
 1. A version-controlled location for the EAXS schema files and documentation. 
 	- This includes an experimental JSON mapping of the XSD.
-2. Namespace name and schema locations for EAXS.
+2. A new namespace name: `https://github.com/StateArchivesOfNorthCarolina/tomes-eaxs`
+3. A new schema location: `https://raw.githubusercontent.com/StateArchivesOfNorthCarolina/tomes-eaxs/master/eaxs_schema.xsd`
  
