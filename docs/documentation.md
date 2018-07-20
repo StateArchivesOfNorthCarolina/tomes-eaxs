@@ -16,7 +16,7 @@ Each version sub-directory, e.g. `./versions/1`, is intended to contain a persis
 
 A persistent version can include version-controlled modifications to the schema or documentation files, etc. provided they do not invalidate existing EAXS XML files that adhere to that specific version.
 
-By contrast, changes to Version 1 of the EAXS schema that would invalidate an existing first-version EAXS XML file will require creating a new, hard-coded version of the schema, i.e `./versions/2/eaxs_schema_v2.xsd`.
+By contrast, changes to Version 1 of the EAXS schema that would invalidate existing, first-version EAXS XML files will require creating a new, hard-coded version of the schema, i.e `./versions/2/eaxs_schema_v2.xsd`.
 
 
 ## Schema Locations
