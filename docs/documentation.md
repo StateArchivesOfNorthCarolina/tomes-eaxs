@@ -10,11 +10,11 @@ The schema files were move to GitHub in July, 2018 for the TOMES project.
 The namespace name for EAXS is `https://github.com/StateArchivesOfNorthCarolina/tomes-eaxs`.
 
 ## XSD Versions
-Current and future EAXS XSD files are location in the `./versions` directory.
+The `./versions` directory is intended to store current and future EAXS XSD files.
 
 Each version sub-directory, e.g. `./versions/1`, is intended to contain a persistent version of the schema.
 
-A persistent version can include version-controlled modifications to the schema or documentation files, etc. provided they do not invalidate existing EAXS XML files that adhere to that specific version.
+A persistent version may include version-controlled modifications to the schema or documentation files, etc. provided they do not invalidate existing EAXS XML files that adhere to that version.
 
 By contrast, changes to Version 1 of the EAXS schema that would invalidate existing, first-version EAXS XML files will require creating a new, hard-coded version of the schema, i.e `./versions/2/eaxs_schema_v2.xsd`.
 
@@ -24,5 +24,3 @@ The EAXS XML `schemaLocation` attribute will use the "raw" GitHub view of a give
 
 ## EAXS as JSON
 Version 1 of the EAXS schema includes an experimental but unsupported JSON version. TOMES related tools might support JSON output in the future. 
-
- 
