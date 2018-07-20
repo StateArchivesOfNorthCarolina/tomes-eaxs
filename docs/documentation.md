@@ -19,7 +19,7 @@ A persistent version may include version-controlled modifications to the schema 
 By contrast, changes to Version 1 of the EAXS schema that would invalidate existing, first-version EAXS XML files will require creating a new, hard-coded version of the schema, i.e `./versions/2/eaxs_schema_v2.xsd`.
 
 
-## Schema Locations
+## Schema Location
 The EAXS XML `schemaLocation` attribute will use the "raw" GitHub view of a given XSD file as its value, e.g. `schemaLocation="https://raw.githubusercontent.com/StateArchivesOfNorthCarolina/tomes-eaxs/master/versions/1/eaxs_schema_v1.xsd"`.
 
 ## EAXS as JSON
