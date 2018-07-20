@@ -7,7 +7,7 @@ EAXS is designed to store XML-encoded message and attachment data for a single e
 The schema files were move to GitHub in July, 2018 for the TOMES project.
 
 ## Namespace Name
-The TOMES project namespace name for EAXS is `https://github.com/StateArchivesOfNorthCarolina/tomes-eaxs`.
+The namespace name for EAXS is `https://github.com/StateArchivesOfNorthCarolina/tomes-eaxs`.
 
 ## XSD Versions
 Current and future EAXS XSD files are location in the `./versions` directory.
