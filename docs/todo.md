@@ -1,6 +1,6 @@
 # Ideas for Future Work
 
-- Consider adding a simple Python module in a `tomes_eaxs` folders so that other TOMES packages can import the namespace URI, namespace prefix, and XSD locations without having to hardcode them:
+- Consider adding a simple Python module in a `tomes_eaxs` sub-folder so that other TOMES Python packages can import the namespace URI, namespace prefix, and XSD locations without having to hardcode them:
 
     	#tomes_eaxs.py
     	class EAXS():
