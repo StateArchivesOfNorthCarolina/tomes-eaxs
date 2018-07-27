@@ -1,5 +1,5 @@
 {
-  "id": "https://raw.githubusercontent.com/StateArchivesOfNorthCarolina/tomes-eaxs/master/eaxs_schema.json",
+  "id": "https://raw.githubusercontent.com/StateArchivesOfNorthCarolina/tomes-eaxs/master/versions/1/eaxs_schema_v1.json",
 
   "definitions": {
     "folder-type": {
