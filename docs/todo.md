@@ -7,10 +7,10 @@
 		    def __init__(self, version=1, prefix="eaxs"):
 		            self.version = version
 		            self.prefix = prefix
-		            self._url = "https://{domain}.com/StateArchivesOfNorthCarolina/tomes-eaxs"
-		            self.ns = self._url.format(domain="github")
+		            self.base = "https://{domain}.com/StateArchivesOfNorthCarolina/tomes-eaxs"
+		            self.ns = self.base.format(domain="github")
 		            self.xsd = "{domain}/master/versions/{version}/eaxs_schema_v{version}.xsd".format(
-		                domain=self._url.format(domain="raw.githubusercontent"), version=self.version)
+		                domain=self.base.format(domain="raw.githubusercontent"), version=self.version)
 		            self.json_schema = self.xsd.replace(".xsd", ".json")
 		    """
 		    Example:
