@@ -24,3 +24,5 @@
 		    """
     
 	This module should include a `setup.py` file but the actual XSD/JSON files should be excluded from the Python package.
+
+- Remove all JSON-EAXS code; it's well out of scope for the foreseeable future to offer a JSON option and the additional code creates a maintenance issue.

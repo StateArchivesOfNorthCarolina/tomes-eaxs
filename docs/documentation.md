@@ -2,7 +2,7 @@
 
 **EAXS** stands for *Email Account XML Schema*. 
 
-EAXS is designed to store XML-encoded message and attachment data for a single e-mail account. The schema was developed by the [State Archives of North Carolina](https://archives.ncdcr.gov) and the [Smithsonian Institution Archives](https://siarchives.si.edu) circa 2008.
+EAXS is designed to store XML-encoded message and attachment data for a single email account. The schema was developed by the [State Archives of North Carolina](https://archives.ncdcr.gov) and the [Smithsonian Institution Archives](https://siarchives.si.edu) circa 2008.
 
 The schema files were move to GitHub in July, 2018 for the TOMES project.
 
@@ -21,6 +21,3 @@ By contrast, changes to Version 1 of the EAXS schema that would invalidate exist
 
 ## Schema Location
 The EAXS XML `schemaLocation` attribute will use the "raw" GitHub view of a given XSD file as its value, e.g. `schemaLocation="https://raw.githubusercontent.com/StateArchivesOfNorthCarolina/tomes-eaxs/master/versions/1/eaxs_schema_v1.xsd"`.
-
-## EAXS as JSON
-Version 1 of the EAXS schema includes an experimental but unsupported JSON version. TOMES related tools might support JSON output in the future. 
